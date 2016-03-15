@@ -32,13 +32,13 @@ double QuadraticEquation::getDiscriminant()
 double QuadraticEquation::getRoot1()
 {
 	if (getDiscriminant() >= 0)
-		return ((-b) + sqrt(getDiscriminant()) / (2 * a));
+		return (((-b) + sqrt(getDiscriminant())) / (2 * a));
 	return 0;
 }
 
 double QuadraticEquation::getRoot2()
 {
 	if (getDiscriminant() > 0)
-		return ((-b) + sqrt(getDiscriminant()) / (2 * a));
+		return (((-b) - sqrt(getDiscriminant())) / (2 * a));
 	return 0;
 }
