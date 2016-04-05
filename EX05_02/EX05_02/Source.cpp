@@ -9,7 +9,7 @@ using std::cout; using std::cin; using std::endl; using std::string;
 
 int* doubleCapacity(const int*, int);
 //old code copy
-void prompt_count(int*);
+void prompt_count(int*); 
 int* alloc_array(int);
 void populate_numbers(int*, int);
 double avgOfArr(int*, int);
