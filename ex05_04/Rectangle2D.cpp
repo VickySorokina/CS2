@@ -12,12 +12,12 @@ Rectangle2D::Rectangle2D()
 	width = 1;
 }
 //non-empty constructor for rectangle
-Rectangle2D::Rectangle2D(double newX, double newY, double newH, double newW)
+Rectangle2D::Rectangle2D(double x, double y, double width, double height)
 {
-	x = newX;
-	y = newY;
-	height = newH;
-	width = newW;
+	this -> x = x;
+	this -> y = y;
+	this -> height = height;
+	this -> width = width;
 }
 //getters and setters of x and y
 double Rectangle2D::getX() const
@@ -30,14 +30,14 @@ double Rectangle2D::getY() const
 	return y;
 }
 
-void Rectangle2D::setX(double newX)
+void Rectangle2D::setX(double x)
 {
-	x = newX;
+	this -> x = x;
 }
 
-void Rectangle2D::setY(double newY)
+void Rectangle2D::setY(double y)
 {
-	y = newY;
+	this -> y = y;
 }
 //getters and setters of width and height
 double Rectangle2D::getWidth() const
@@ -50,14 +50,14 @@ double Rectangle2D::getHeight() const
 	return height;
 }
 
-void Rectangle2D::setWidth(double newWidth)
+void Rectangle2D::setWidth(double width)
 {
-	width = newWidth;
+	this -> width = width;
 }
 
-void Rectangle2D::setHeight(double newHeight)
+void Rectangle2D::setHeight(double height)
 {
-	height = newHeight;
+	this -> height = height;
 }
 //returns area of the rectangle
 double Rectangle2D::getArea() const
