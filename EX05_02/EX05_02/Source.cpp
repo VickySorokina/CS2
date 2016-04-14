@@ -24,8 +24,7 @@ int main() {
 	int* numbers = alloc_array(nums);
 	populate_numbers(numbers, nums);
 
-	double average = avgOfArr(numbers, nums); /*is there any way to deal with this without creating a separate value for average or
-											  dumping the two functions together?*/
+	double average = avgOfArr(numbers, nums);
 	cout << "Average of these numbers is " << average << " and there are " << aboveAvg(numbers, nums, average);
 	cout << " numbers greater than it." << endl;
 	cout << "New double array values are:" << endl;
@@ -74,12 +73,12 @@ int aboveAvg(int* numbers, int size, double const average) {
 	return larger;
 }
 
-
+//creates an array double the previous array size
 int* doubleCapacity(const int* list, int size){
-	int* pintarray = new int[size * 2];
+	int* pintarray = new int[size * 2]; //new array is with size oldsize*2
 	for (int i = 0; i < size; i++)
-		pintarray[i] = list[i];
+		pintarray[i] = list[i]; //first half of the array is equal to old array
 	for (int i = size; i < size * 2; i++)
-		pintarray[i] = 0;
+		pintarray[i] = 0; //second half of array is zeroes for now
 	return pintarray;
 }
