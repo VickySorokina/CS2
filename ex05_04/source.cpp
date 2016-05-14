@@ -1,6 +1,10 @@
 #include <iostream>
 #include "Rectangle2D.h"
 
+/*I coudn't run this so i need to see it, but from what it looks like you have the jist of what is supposed to be happening
+15/20
+*/
+
 using std::cout; using std::cin; using std::cout; using std::endl; using std::string;
 
 int main() {

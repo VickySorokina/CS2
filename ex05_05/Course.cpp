@@ -1,5 +1,9 @@
 #include "Course.h"
 
+
+/*I coudn't run this so i need to see it, but from what it looks like you have the jist of what is supposed to be happening
+15/20
+*/
 Course::Course(const string & courseName, int capacity)
 {
 	numberOfStudents = 0;
