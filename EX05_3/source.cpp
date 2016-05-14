@@ -3,6 +3,10 @@
 Use {1,2,4,5,10,100,2,-22} to test the function.
 */
 
+
+/*I coudn't run this so i need to see it, but from what it looks like you have the jist of what is supposed to be happening
+15/20
+*/
 #include <iostream>
 using std::cout; using std::cin; using std::endl;  using std::string; using std::size;
 

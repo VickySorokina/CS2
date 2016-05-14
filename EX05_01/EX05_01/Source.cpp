@@ -2,6 +2,11 @@
 Write a program that first reads an integer for the array size(y),
 then reads numbers into array(y), computes their average(y), and finds out how many numbers are above the average(y).
 *****************/
+
+/*Derek- 
+I love how you used teh using std::cout and etc, that is really good style. Nice job with the program too, looks great
+20/20
+*/
 #include <iostream>
 using std::cout; using std::cin; using std::endl; using std::string;
 

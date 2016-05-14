@@ -3,6 +3,10 @@ Onve an array is created, its size is fixed. Occasonally, you need to add more v
 In this case, you may create a new larger array to replace the existing array. Write a function that returns a new array 
 that doubles the size of the parameter list.
 ****************/
+/*Derek- Looks great nice job. Keep it up
+
+20/20
+*/
 
 #include <iostream>
 using std::cout; using std::cin; using std::endl; using std::string;
